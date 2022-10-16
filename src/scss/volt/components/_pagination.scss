@@ -1,0 +1,36 @@
+/**
+ * = Paginations
+ */
+// .circle-pagination {
+//   .page-link,
+//   span {
+//     @include display-flex();
+//     align-items: center;
+//     justify-content: center;
+//     width: 34px;
+//     height: 34px;
+//     padding: 0;
+//     @include border-radius($circle-radius);
+//   }
+// }
+.paginate {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.paginate button {
+  outline: none;
+  border: none;
+  color: black;
+  padding: 8px 13px;
+  border: 1px solid rgb(237, 235, 233);
+  margin: 2px;
+}
+.paginate button:hover {
+  background-color: #eb2626;
+  color: white;
+}
+.paginate button:focus {
+  background-color: #eb2626;
+  color: white;
+}

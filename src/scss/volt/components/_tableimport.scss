@@ -1,0 +1,24 @@
+.rdtOpen > .form-control,
+.rdt > .form-control {
+  width: auto !important;
+}
+
+.datetime-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  background-color: rgb(255, 255, 255);
+}
+.search-container {
+  display: flex;
+  padding: 5px;
+}
+.ant-dropdown-trigger {
+  width: 150px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.ant-radio-group {
+  border: 1px solid rgb(220, 219, 219);
+  padding: 8px 5px !important;
+}
